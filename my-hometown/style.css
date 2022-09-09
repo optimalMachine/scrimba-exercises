@@ -40,14 +40,105 @@ body {
 
 .activities{
     background-color:#e5e5e5;
+    color:#14213d;
     width:100%;
     height:343px;
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+
+.activities__one, .activities__two, .activities__three{
+    display:flex;
+    width:300px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.activities__one__image{
+    background-image: url('https://media.giphy.com/media/274oCYbGZUQKUEW5rH/giphy-downsized-large.gif');
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.activities__one__image:hover{
+    background-image: url('https://images.unsplash.com/photo-1538485399081-7191377e8241?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=374&q=80');
+    background-position: 10px -150px;
+    width:200px;
+    height:150px;
+
+}
+
+.activities__two__image{
+    background-image: url('https://media.giphy.com/media/274oCYbGZUQKUEW5rH/giphy-downsized-large.gif');
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.activities__two__image:hover{
+    background-image: url('https://images.unsplash.com/photo-1614346950571-ddda7fc206af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    background-position: 10px -150px;
+    width:200px;
+    height:150px;
+
+}
+
+.activities__three__image{
+    background-image: url('https://media.giphy.com/media/274oCYbGZUQKUEW5rH/giphy-downsized-large.gif');
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.activities__three__image:hover{
+    background-image: url('https://images.unsplash.com/photo-1621406384199-f9ee619e3810?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80');
+    width:200px;
+    height:150px;
+
 }
 
 .guide{
     background-color:white;
     width:100%;
-    height:343px;
+    display:flex;
+    justify-content: center;
+}
+
+.guide__profile{
+    margin: 20px 10px;
+    width: 400px;
+    height: 294px;
+    background-color: #14213d;
+    display:flex;
+    justify-content: center;
+    padding-top:30px;
+    border-radius:10px;
+    border-bottom:10px solid #fca311;
+}
+
+.guide__profile > img{
+    width:150px;
+    height:150px;
+    border-radius:10px;
+    margin: 30px 15px;
+}
+
+.guide > h1{
+    font-style:bold;
+}
+
+.guide__profile__content{
+    color:white;
+    margin: 10px 20px;
+    width:200px;
+    text-align:center;
 }
 
 
